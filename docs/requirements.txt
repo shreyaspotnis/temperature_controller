@@ -1,0 +1,10 @@
+TH10K thermistor from Thorlabs has a resistance dependence of about 500Ohm/K
+around 20-30 degrees. We would like a 0.1mK long term stability of the
+temperature. This corresponds to measuring the thermistor resistance to 50mOhm,
+or 5ppm.
+
+The resistors used in the wheatstone bridge should have a very low
+tempco to achieve this stability. If 5ppm/K thermistors are used, then the
+temperature of the box has to be maintained to within 1K to avoid drifts.
+
+RV1 is connected so that a clockwise rotation increases the set temperature.
