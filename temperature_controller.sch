@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:all_components
+LIBS:temperature_controller-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1469,7 +1470,7 @@ L R R14
 U 1 1 58714E16
 P 4200 3600
 F 0 "R14" V 4280 3600 50  0000 C CNN
-F 1 "10k" V 4200 3600 50  0000 C CNN
+F 1 "100k" V 4200 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4130 3600 50  0001 C CNN
 F 3 "" H 4200 3600 50  0000 C CNN
 	1    4200 3600
